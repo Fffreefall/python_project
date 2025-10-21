@@ -1,3 +1,18 @@
+import os
+import requests
+import allure
+import selenium
+from dotenv import load_dotenv
+from selene.support.shared import browser
+from selenium.webdriver.chrome.options import Options
+
+from test_python_mashroom.DATA.activity import ActivityObj, json_data_activity_open
+from test_python_mashroom.DATA.authorization import AuthorizationObj
+from test_python_mashroom.UTILS.base_session import BaseSession
+from test_python_mashroom.API.utils.decorators import api_retry
+
+load_dotenv()
+
 @allure.step("авторизация на стенде")
 @api_retry(max_attempts=1, wait_seconds=2)
 def authorization_at_stand(login, password):

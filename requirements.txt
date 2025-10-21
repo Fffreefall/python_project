@@ -1,0 +1,18 @@
+# Core dependencies
+python-dotenv==1.1.1
+requests==2.31.0
+allure-pytest==2.13.5
+allure-python-commons==2.13.5
+
+# Selenium and browser automation
+selenium==4.15.2
+selene==2.0.0b11
+
+# Testing framework
+pytest==7.4.3
+
+# Additional utilities
+curlify==0.0.6
+
+# Optional: for better JSON handling
+# jsonschema==4.19.2
