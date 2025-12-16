@@ -11,7 +11,7 @@ class User: #класс
         print(self.age)
     def setAge(self, newAge): #метод
         self.age = newAge
-    def addCard(selfself, card):
+    def addCard(self, card):
         self.card = card
     def getCard(self):
         return self.card

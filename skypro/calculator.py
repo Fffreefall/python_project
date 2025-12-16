@@ -21,11 +21,5 @@ class Calculator:
              s = s+num
          l = len(nums)
          return self.div(s, l)
-    def test_sum_positive_nums():
-        calculator = Calculator()
-
-    def test_sum_positive_nums():
-        calculator = Calculator()
-
-    def test_sum_positive_nums():
+    def test_sum_positive_nums(self):
         calculator = Calculator()
